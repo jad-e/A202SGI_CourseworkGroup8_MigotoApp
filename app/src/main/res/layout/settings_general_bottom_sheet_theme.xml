@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/settingsGeneral_changeTheme_bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_background_2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/settingsGeneral_changeTheme_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="left"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/settingsGeneral_changeTheme_label"
+        android:textColor="?attr/SGBST_main_title_color"
+        android:textSize="20sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/settingsGeneral_changeTheme_dark_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="20dp"
+        app:cardBackgroundColor="?attr/SGBST_card_background_color"
+        app:cardCornerRadius="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/settingsGeneral_changeTheme_dark_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:src="@drawable/ic_theme_circle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#171c2f" />
+
+            <TextView
+                android:id="@+id/settingsGeneral_changeTheme_dark_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="@string/settingsGeneral_changeTheme_dark_title"
+                android:textColor="?attr/SGBST_card_title_color"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/settingsGeneral_changeTheme_dark_icon"
+                app:layout_constraintStart_toEndOf="@+id/settingsGeneral_changeTheme_dark_icon"
+                app:layout_constraintTop_toTopOf="@+id/settingsGeneral_changeTheme_dark_icon" />
+
+            <ImageView
+                android:id="@+id/settingsGeneral_changeTheme_dark_checked_imgView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_check_circle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/settingsGeneral_changeTheme_light_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="20dp"
+        app:cardBackgroundColor="?attr/SGBST_card_background_color"
+        app:cardCornerRadius="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/settingsGeneral_changeTheme_light_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:src="@drawable/ic_theme_circle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#e6edff" />
+
+            <TextView
+                android:id="@+id/settingsGeneral_changeTheme_light_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="@string/settingsGeneral_changeTheme_light_title"
+                android:textColor="?attr/SGBST_card_title_color"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/settingsGeneral_changeTheme_light_icon"
+                app:layout_constraintStart_toEndOf="@+id/settingsGeneral_changeTheme_light_icon"
+                app:layout_constraintTop_toTopOf="@+id/settingsGeneral_changeTheme_light_icon" />
+
+            <ImageView
+                android:id="@+id/settingsGeneral_changeTheme_light_checked_imgView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_check_circle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/settingsGeneral_changeTheme_btnCancel"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bottom_sheet_negative_button_background"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@string/settingsGeneral_changeTheme_btnCancel"
+            android:textColor="?attr/bs_button_cancel_text_color"
+            android:textSize="16sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/settingsGeneral_changeTheme_btnOK"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bottom_sheet_positive_button_background"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@string/settingsGeneral_changeTheme_btnOK"
+            android:textColor="?attr/bs_button_ok_text_color"
+            android:textSize="16sp"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+</LinearLayout>

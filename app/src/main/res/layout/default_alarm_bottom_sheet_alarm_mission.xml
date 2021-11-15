@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/defaultAlarm_changeAlarmMission_bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_background_2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/defaultAlarm_changeAlarmMission_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="left"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/defaultAlarm_changeAlarmMission_label"
+        android:textColor="?attr/DABSAM_main_title_color"
+        android:textSize="20sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/defaultAlarm_changeAlarmMission_mission_shake_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="20dp"
+        app:cardBackgroundColor="?attr/DABSAM_card_background_color"
+        app:cardCornerRadius="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/defaultAlarm_changeAlarmMission_mission_shake_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:src="@drawable/shake_phone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="?attr/DABSAM_card_icon_color" />
+
+            <TextView
+                android:id="@+id/defaultAlarm_changeAlarmMission_mission_shake_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="@string/defaultAlarm_changeAlarmMission_mission_shake_title"
+                android:textColor="?attr/DABSAM_card_title_color"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/defaultAlarm_changeAlarmMission_mission_shake_icon"
+                app:layout_constraintStart_toEndOf="@+id/defaultAlarm_changeAlarmMission_mission_shake_icon"
+                app:layout_constraintTop_toTopOf="@+id/defaultAlarm_changeAlarmMission_mission_shake_icon" />
+
+            <ImageView
+                android:id="@+id/defaultAlarm_changeAlarmMission_mission_shake_checked_imgView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_check_circle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/defaultAlarm_changeAlarmMission_mission_math_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="20dp"
+        app:cardBackgroundColor="?attr/DABSAM_card_background_color"
+        app:cardCornerRadius="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/defaultAlarm_changeAlarmMission_mission_math_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:src="@drawable/ic_math"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="?attr/DABSAM_card_icon_color" />
+
+            <TextView
+                android:id="@+id/defaultAlarm_changeAlarmMission_mission_math_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="@string/defaultAlarm_changeAlarmMission_mission_math_title"
+                android:textColor="?attr/DABSAM_card_title_color"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/defaultAlarm_changeAlarmMission_mission_math_icon"
+                app:layout_constraintStart_toEndOf="@+id/defaultAlarm_changeAlarmMission_mission_math_icon"
+                app:layout_constraintTop_toTopOf="@+id/defaultAlarm_changeAlarmMission_mission_math_icon" />
+
+            <ImageView
+                android:id="@+id/defaultAlarm_changeAlarmMission_mission_math_checked_imgView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_check_circle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/defaultAlarm_changeMission_btnCancel"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bottom_sheet_negative_button_background"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@string/defaultAlarm_changeMission_btnCancel"
+            android:textColor="?attr/bs_button_cancel_text_color"
+            android:textSize="16sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/defaultAlarm_changeMission_btnOK"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bottom_sheet_positive_button_background"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@string/defaultAlarm_changeMission_btnOK"
+            android:textColor="?attr/bs_button_ok_text_color"
+            android:textSize="16sp"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

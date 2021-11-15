@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ds">
+
+        <!-- MAIN ACTIVITY  -->
+        <attr name="main_activity_background_color" format="color" />
+        <attr name="nav_bar_color" format="color" />
+        <attr name="nav_bar_inactive_item_color" format="color" />
+        <attr name="nav_bar_active_item_color" format="color" />
+
+
+        <!-- 4 MAIN FRAGMENTS  -->
+
+        <!-- fragment bedtime -->
+        <attr name="no_alarms_set_textView_color" format="color" />
+
+        <!-- fragment bedtime > list item clock -->
+        <attr name="lic_card_background_color" format="color" />
+        <attr name="lic_card_active_details_color" format="color" />
+        <attr name="lic_card_inactive_details_color" format="color" />
+
+        <!-- fragment bedtime > list item clock > alarm clock activity -->
+        <attr name="aca_background_color" format="color" />
+
+        <!-- fragment bedtime > list item clock > fragment alarm clock -->
+        <attr name="fac_back_arrow_color" format="color" />
+        <attr name="fac_number_picker_color" format="color" />
+        <attr name="fac_number_picker_text_color" format="color" />
+        <attr name="fac_cards_background_color" format="color" />
+        <attr name="fac_cards_icon_color" format="color" />
+        <attr name="fac_cards_title_color" format="color" />
+        <attr name="fac_cards_details_color" format="color" />
+        <attr name="fac_cards_more_arrow_color" format="color" />
+
+        <!-- fragment bedtime > create alarm activity -->
+        <attr name="CAA_background_color" format="color" />
+        <attr name="CAA_back_arrow_color" format="color" />
+        <attr name="CAA_number_picker_color" format="color" />
+        <attr name="CAA_number_picker_text_color" format="color" />
+        <attr name="CAA_cards_background_color" format="color" />
+        <attr name="CAA_cards_icon_color" format="color" />
+        <attr name="CAA_cards_title_color" format="color" />
+        <attr name="CAA_cards_details_color" format="color" />
+        <attr name="CAA_cards_more_arrow_color" format="color" />
+
+        <!-- fragment timeline -->
+        <attr name="no_challenges_record_textView_color" format="color" />
+
+        <!-- fragment timeline > list item challenge -->
+        <attr name="challenge_timeline_vertical_line_color" format="color" />
+        <attr name="challenge_finalize_time_card_color" format="color" />
+        <attr name="challenge_finalize_time_text_color" format="color" />
+        <attr name="challenge_status_text_color" format="color" />
+        <attr name="challenge_card_bottom_color" format="color" />
+        <attr name="challenge_alarm_icon_color" format="color" />
+        <attr name="challenge_alarm_time_text_color" format="color" />
+
+
+        <!-- fragment timer -->
+
+
+        <!-- fragment settings -->
+        <attr name="fs_main_title_color" format="color" />
+        <attr name="fs_card_background_color" format="color" />
+        <attr name="fs_card_profile_icon_color" format="color" />
+        <attr name="fs_card_title_color" format="color" />
+        <attr name="fs_card_details_color" format="color" />
+        <attr name="fs_card_horizontal_divider_color" format="color" />
+        <attr name="fs_card_more_arrow_color" format="color" />
+
+        <!-- fragment settings > alarm setting activity -->
+        <attr name="as_background_color" format="color" />
+        <attr name="as_main_title_color" format="color" />
+        <attr name="as_back_arrow_color" format="color" />
+        <attr name="as_subtitle_color" format="color" />
+        <attr name="as_card_background_color" format="color" />
+        <attr name="as_card_title_color" format="color" />
+        <attr name="as_card_details_color" format="color" />
+        <attr name="as_card_more_arrow_color" format="color" />
+
+        <!-- fragment settings > mission setting activity -->
+        <attr name="ms_background_color" format="color" />
+        <attr name="ms_main_title_color" format="color" />
+        <attr name="ms_back_arrow_color" format="color" />
+        <attr name="ms_subtitle_color" format="color" />
+        <attr name="ms_card_background_color" format="color" />
+        <attr name="ms_card_title_color" format="color" />
+        <attr name="ms_card_details_color" format="color" />
+        <attr name="ms_card_more_arrow_color" format="color" />
+
+        <!-- fragment settings > general setting activity -->
+        <attr name="gs_background_color" format="color" />
+        <attr name="gs_main_title_color" format="color" />
+        <attr name="gs_back_arrow_color" format="color" />
+        <attr name="gs_card_background_color" format="color" />
+        <attr name="gs_card_title_color" format="color" />
+        <attr name="gs_card_details_color" format="color" />
+        <attr name="gs_card_more_arrow_color" format="color" />
+
+        <!-- fragment settings > help feedback activity -->
+        <attr name="hf_background_color" format="color" />
+        <attr name="hf_main_title_color" format="color" />
+        <attr name="hf_back_arrow_color" format="color" />
+
+        <!-- fragment settings > help feedback activity > list view item -->
+        <attr name="lvi_text_color" format="color" />
+
+        <!-- fragment settings > help feedback activity > list view item > faq item activity -->
+        <attr name="faqia_background_color" format="color" />
+
+        <!-- fragment settings > help feedback activity > list view item > fragment faq item -->
+        <attr name="ffaqi_back_arrow_color" format="color" />
+        <attr name="ffaqi_title_color" format="color" />
+        <attr name="ffaqi_horizontal_divider" format="color" />
+        <attr name="ffaqi_content_color" format="color" />
+
+        <!-- fragment settings > feedback activity -->
+        <attr name="f_background_color" format="color" />
+        <attr name="f_main_title_color" format="color" />
+        <attr name="f_back_arrow_color" format="color" />
+        <attr name="f_subtitle_color" format="color" />
+        <attr name="f_edit_text_background_color" format="color" />
+        <attr name="f_edit_text_hint_color" format="color" />
+        <attr name="f_edit_text_text_color" format="color" />
+
+        <!-- fragment settings > about activity -->
+        <attr name="ab_background_color" format="color" />
+        <attr name="ab_main_title_color" format="color" />
+        <attr name="ab_back_arrow_color" format="color" />
+        <attr name="ab_app_name_color" format="color" />
+        <attr name="ab_version_color" format="color" />
+        <attr name="ab_button_text_color" format="color" />
+        <attr name="ab_rights_text_color" format="color" />
+
+
+        <!-- ALERT DIALOGS -->
+
+        <!-- dialog birthday -->
+        <attr name="db_background_color" format="color" />
+        <attr name="db_main_title_color" format="color" />
+        <attr name="db_desc_color" format="color" />
+        <attr name="db_details_color" format="color" />
+        <attr name="db_number_picker_color" format="color" />
+        <attr name="db_number_picker_text_color" format="color" />
+
+        <!-- dialog username -->
+        <attr name="du_background_color" format="color" />
+        <attr name="du_main_title_color" format="color" />
+        <attr name="du_desc_color" format="color" />
+        <attr name="du_edit_text_text_color" format="color" />
+        <attr name="du_edit_text_hint_color" format="color" />
+
+        <!-- ~alert dialog general view colors~ -->
+        <attr name="al_button_cancel_background_color" format="color" />
+        <attr name="al_button_cancel_text_color" format="color" />
+        <attr name="al_button_ok_background_color" format="color" />
+        <attr name="al_button_ok_text_color" format="color" />
+
+
+        <!-- BOTTOM SHEETS -->
+
+        <!-- create alarm bottom sheet alarm mission -->
+        <attr name="CABSAM_background_color" format="color" />
+        <attr name="CABSAM_main_title_color" format="color" />
+        <attr name="CABSAM_card_background_color" format="color" />
+        <attr name="CABSAM_card_icon_color" format="color" />
+        <attr name="CABSAM_card_title_color" format="color" />
+
+        <!-- create alarm bottom sheet alarm ringtone -->
+        <attr name="CABSAR_background_color" format="color" />
+        <attr name="CABSAR_main_title_color" format="color" />
+        <attr name="CABSAR_details_color" format="color" />
+
+        <!-- create alarm bottom sheet alarm title -->
+        <attr name="CABSAT_background_color" format="color" />
+        <attr name="CABSAT_main_title_color" format="color" />
+        <attr name="CABSAT_edit_text_text_color" format="color" />
+        <attr name="CABSAT_edit_text_hint_color" format="color" />
+
+        <!-- default alarm bottom sheet alarm mission -->
+        <attr name="DABSAM_background_color" format="color" />
+        <attr name="DABSAM_main_title_color" format="color" />
+        <attr name="DABSAM_card_background_color" format="color" />
+        <attr name="DABSAM_card_icon_color" format="color" />
+        <attr name="DABSAM_card_title_color" format="color" />
+
+        <!-- default alarm bottom sheet alarm ringtone -->
+        <attr name="DABSAR_background_color" format="color" />
+        <attr name="DABSAR_main_title_color" format="color" />
+        <attr name="DABSAR_details_color" format="color" />
+
+        <!-- edit alarm bottom sheet alarm mission -->
+        <attr name="EABSAM_background_color" format="color" />
+        <attr name="EABSAM_main_title_color" format="color" />
+        <attr name="EABSAM_card_background_color" format="color" />
+        <attr name="EABSAM_card_icon_color" format="color" />
+        <attr name="EABSAM_card_title_color" format="color" />
+
+        <!-- edit alarm bottom sheet alarm ringtone -->
+        <attr name="EABSAR_background_color" format="color" />
+        <attr name="EABSAR_main_title_color" format="color" />
+        <attr name="EABSAR_details_color" format="color" />
+
+        <!-- edit alarm bottom sheet alarm title -->
+        <attr name="EABSAT_background_color" format="color" />
+        <attr name="EABSAT_main_title_color" format="color" />
+        <attr name="EABSAT_edit_text_text_color" format="color" />
+        <attr name="EABSAT_edit_text_hint_color" format="color" />
+
+        <!-- settings general bottom sheet language -->
+        <attr name="SGBSL_background_color" format="color" />
+        <attr name="SGBSL_main_title_color" format="color" />
+        <attr name="SGBSL_card_background_color" format="color" />
+        <attr name="SGBSL_card_title_color" format="color" />
+
+        <!-- settings general bottom sheet theme -->
+        <attr name="SGBST_background_color" format="color" />
+        <attr name="SGBST_main_title_color" format="color" />
+        <attr name="SGBST_card_background_color" format="color" />
+        <attr name="SGBST_card_title_color" format="color" />
+
+        <!-- settings mission bottom sheet auto dismiss -->
+        <attr name="SMBSAD_background_color" format="color" />
+        <attr name="SMBSAD_main_title_color" format="color" />
+        <attr name="SMBSAD_details_color" format="color" />
+
+        <!-- settings mission bottom sheet math difficulty -->
+        <attr name="SMBSMD_background_color" format="color" />
+        <attr name="SMBSMD_main_title_color" format="color" />
+        <attr name="SMBSMD_dif_status_color" format="color" />
+        <attr name="SMBSMD_dif_example_color" format="color" />
+        <attr name="SMBSMD_tip_easy_color" format="color" />
+        <attr name="SMBSMD_tip_hard_color" format="color" />
+        <attr name="SMBSMD_slider_tick_color" format="color" />
+
+        <!-- settings mission bottom sheet memory difficulty -->
+        <attr name="SMBSMED_background_color" format="color" />
+        <attr name="SMBSMED_main_title_color" format="color" />
+        <attr name="SMBSMED_dif_status_color" format="color" />
+        <attr name="SMBSMED_dif_example_color" format="color" />
+        <attr name="SMBSMED_tip_easy_color" format="color" />
+        <attr name="SMBSMED_tip_hard_color" format="color" />
+        <attr name="SMBSMED_slider_tick_color" format="color" />
+
+        <!-- settings mission bottom sheet shake difficulty -->
+        <attr name="SMBSSD_background_color" format="color" />
+        <attr name="SMBSSD_main_title_color" format="color" />
+        <attr name="SMBSSD_dif_status_color" format="color" />
+        <attr name="SMBSSD_tip_easy_color" format="color" />
+        <attr name="SMBSSD_tip_hard_color" format="color" />
+        <attr name="SMBSSD_slider_tick_color" format="color" />
+
+        <!-- ~bottom sheet general view colors~ -->
+        <attr name="bs_button_cancel_background_color" format="color" />
+        <attr name="bs_button_cancel_text_color" format="color" />
+        <attr name="bs_button_ok_background_color" format="color" />
+        <attr name="bs_button_ok_text_color" format="color" />
+
+
+
+        <!-- time picker theme -->
+        <attr name="time_picker_background_color" format="color"/>
+        <attr name="time_picker_number_color" format="color"/>
+        <attr name="time_picker_hand_color" format="color"/>
+
+
+    </declare-styleable>
+
+</resources>

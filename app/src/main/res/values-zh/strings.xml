@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">米歌豆</string>
+
+
+    <!-- nav menu -->
+    <string name="menu_alarm">闹钟</string>
+    <string name="menu_timeline">时间线</string>
+    <string name="menu_timer">计时器</string>
+    <string name="menu_settings">设置</string>
+
+
+    <!-- BedTime Fragment -->
+    <string name="no_alarm_set">未设置闹钟</string>
+
+    <!-- BedTime Fragment > list item alarm -->
+    <string name="list_item_alarm_mission_text">任务</string>
+    <string name="list_item_alarm_ringtone_text">铃声</string>
+    <string name="list_item_alarm_vibrate_text">颤动</string>
+
+    <string name="list_item_alarm_mission_value1">甩甩</string>
+    <string name="list_item_alarm_mission_value2">数学题</string>
+    <string name="list_item_alarm_mission_value3">记忆力</string>
+
+    <string name="list_item_alarm_ringtone_value1">铃声 1</string>
+    <string name="list_item_alarm_ringtone_value2">铃声 2</string>
+    <string name="list_item_alarm_ringtone_value3">铃声 3</string>
+    <string name="list_item_alarm_ringtone_value4">铃声 4</string>
+
+    <string name="list_item_alarm_vibrate_valueOn">是</string>
+    <string name="list_item_alarm_vibrate_valueOff">否</string>
+
+
+    <!-- BedTime Fragment > list item alarm > fragment alarm clock -->
+    <string name="fac_alarm_title_text">闹钟标题</string>
+    <string name="fac_bedtime_title_text">就寝时间</string>
+    <string name="fac_mission_title_text">任务</string>
+    <string name="fac_ringtone_title_text">铃声</string>
+    <string name="fac_vibrate_title_text">颤动</string>
+
+    <string name="fac_mission_details_text1">甩甩</string>
+    <string name="fac_mission_details_text2">数学题</string>
+    <string name="fac_mission_details_text3">记忆力</string>
+
+    <string name="fac_ringtone_details_text1">铃声 1</string>
+    <string name="fac_ringtone_details_text2">铃声 2</string>
+    <string name="fac_ringtone_details_text3">铃声 3</string>
+    <string name="fac_ringtone_details_text4">铃声 4</string>
+
+    <string name="fac_save_btn_text">保存</string>
+
+    <string name="edit_alarm_success_msg">闹钟更新了!</string>
+
+    <!-- ... fragment alarm clock > edit alarm bottom sheet alarm mission -->
+    <string name="eabsam_mission_title">任务</string>
+    <string name="eabsam_shake_title">甩甩</string>
+    <string name="eabsam_math_title">数学题</string>
+    <string name="eabsam_memory_title">记忆力</string>
+    <string name="eabsam_btnCancel_text">取消</string>
+    <string name="eabsam_btnOk_text">好的</string>
+
+    <!-- ... fragment alarm clock > edit alarm bottom sheet alarm ringtone -->
+    <string name="eabsar_ringtone_title">铃声</string>
+    <string name="eabsar_ringtone1_title">铃声 1</string>
+    <string name="eabsar_ringtone2_title">铃声 2</string>
+    <string name="eabsar_ringtone3_title">铃声 3</string>
+    <string name="eabsar_ringtone4_title">铃声 4</string>
+    <string name="eabsar_btnCancel_text">取消</string>
+    <string name="eabsar_btnOk_text">好的</string>
+
+    <!-- ... fragment alarm clock > edit alarm bottom sheet alarm title -->
+    <string name="eabsat_label_title">标题</string>
+    <string name="eabsat_edit_text_hint">请输入标题</string>
+    <string name="eabsat_btnCancel_text">取消</string>
+    <string name="eabsat_btnOk_text">好的</string>
+
+    <!-- create alarm activity -->
+    <string name="caa_alarm_title_text">闹钟标题</string>
+    <string name="caa_bedtime_title_text">就寝时间</string>
+    <string name="caa_mission_title_text">任务</string>
+    <string name="caa_ringtone_title_text">铃声</string>
+    <string name="caa_vibrate_title_text">颤动</string>
+
+    <string name="caa_mission_details_text1">甩甩</string>
+    <string name="caa_mission_details_text2">数学题</string>
+    <string name="caa_mission_details_text3">记忆力</string>
+
+    <string name="caa_ringtone_details_text1">铃声 1</string>
+    <string name="caa_ringtone_details_text2">铃声 2</string>
+    <string name="caa_ringtone_details_text3">铃声 3</string>
+    <string name="caa_ringtone_details_text4">铃声 4</string>
+
+    <string name="caa_save_btn_text">保存</string>
+
+    <!-- create alarm activity > create alarm bottom sheet alarm mission -->
+    <string name="cabsam_mission_title">任务</string>
+    <string name="cabsam_shake_title">甩甩</string>
+    <string name="cabsam_math_title">数学题</string>
+    <string name="cabsam_memory_title">记忆力</string>
+    <string name="cabsam_btnCancel_text">取消</string>
+    <string name="cabsam_btnOk_text">好的</string>
+
+    <!-- create alarm activity > create alarm bottom sheet alarm ringtone -->
+    <string name="cabsar_ringtone_title">铃声</string>
+    <string name="cabsar_ringtone1_title">铃声 1</string>
+    <string name="cabsar_ringtone2_title">铃声 2</string>
+    <string name="cabsar_ringtone3_title">铃声 3</string>
+    <string name="cabsar_ringtone4_title">铃声 4</string>
+    <string name="cabsar_btnCancel_text">取消</string>
+    <string name="cabsar_btnOk_text">好的</string>
+
+    <!-- create alarm activity > create alarm bottom sheet alarm title -->
+    <string name="cabsat_label_title">标题</string>
+    <string name="cabsat_edit_text_hint">请输入标题</string>
+    <string name="cabsat_btnCancel_text">取消</string>
+    <string name="cabsat_btnOk_text">好的</string>
+
+
+    <string name="no_title_set">无标题</string>
+
+
+    <!-- Timeline Fragment -->
+    <string name="no_challenges_record">无挑战记录</string>
+    <string name="complete_challenge_status_text">你完成了挑战！</string>
+    <string name="fail_challenge_status_text">你挑战失败了！</string>
+
+    <!-- Timer Fragment -->
+
+
+    <!-- Settings Fragment -->
+    <string name="settings_main_title">设置</string>
+
+    <string name="settings_profile_card_title">关于我</string>
+    <string name="settings_profile_username_label">用户名</string>
+    <string name="settings_profile_username_value">用户</string>
+
+    <string name="usernameTextView">用户名</string>
+    <string name="username_desc_textView2">我们因该如何称呼您</string>
+    <string name="username_input">你的名字</string>
+    <string name="settings_username_btnCancel">取消</string>
+    <string name="settings_username_btnOK">好的</string>
+
+    <string name="settings_profile_birthday_label">生日</string>
+    <string name="settings_profile_birthday_value">6/25</string>
+
+    <string name="birthday_textView">生日</string>
+    <string name="birthday_textView2">我们想和你一起庆祝</string>
+    <string name="birthMonth_label">月</string>
+    <string name="birthDay_label">日</string>
+    <string name="settings_birthday_btnCancel">取消</string>
+    <string name="settings_birthday_btnOK">好的</string>
+
+
+    <string name="settings_alarmSetting_textView">闹钟</string>
+    <string name="settings_Mission_textView">任务</string>
+    <string name="settings_General_textView">常规</string>
+    <string name="settings_FAQ_textView">常见问题</string>
+    <string name="settings_About_textView">关于我们</string>
+
+
+    <!-- Settings Fragment > Alarm Setting -->
+    <string name="AlarmSettingPage_main_title">闹钟</string>
+
+    <string name="newAlarmDefaultSetting">默认闹钟设置</string>
+
+    <string name="settings_alarmSetting_Mission_textView">闹钟任务</string>
+    <string name="settings_alarmSetting_Mission_details_txtView">甩甩</string>
+    <string name="settings_alarmSetting_Mission_details_txtViewMath">数学题</string>
+    <string name="settings_alarmSetting_Mission_details_txtViewMemory">记忆力</string>
+
+    <string name="defaultAlarm_changeAlarmMission_label">闹钟任务</string>
+    <string name="defaultAlarm_changeAlarmMission_mission_shake_title">甩甩</string>
+    <string name="defaultAlarm_changeAlarmMission_mission_math_title">数学题</string>
+    <string name="defaultAlarm_changeAlarmMission_mission_memory_title">记忆力</string>
+    <string name="defaultAlarm_changeMission_btnCancel">取消</string>
+    <string name="defaultAlarm_changeMission_btnOK">好的</string>
+
+    <string name="settings_alarmSetting_Ringtone_textView">铃声</string>
+    <string name="settings_alarmSetting_Ringtone_details_txtView">铃声 1</string>
+    <string name="settings_alarmSetting_Ringtone_details_txtViewRing2">铃声 2</string>
+    <string name="settings_alarmSetting_Ringtone_details_txtViewRing3">铃声 3</string>
+    <string name="settings_alarmSetting_Ringtone_details_txtViewRing4">铃声 4</string>
+
+    <string name="defaultAlarm_changeAlarmRingtone_label">铃声</string>
+    <string name="defaultAlarm_changeAlarmRingtone_rb1_text">铃声 1</string>
+    <string name="defaultAlarm_changeAlarmRingtone_rb2_text">铃声 2</string>
+    <string name="defaultAlarm_changeAlarmRingtone_rb3_text">铃声 3</string>
+    <string name="defaultAlarm_changeAlarmRingtone_rb4_text">铃声 4</string>
+    <string name="defaultAlarm_changeRingtone_btnCancel">取消</string>
+    <string name="defaultAlarm_changeRingtone_btnOK">好的</string>
+
+    <string name="settings_alarmSetting_wakeTime_textView">起床时间</string>
+    <string name="settings_alarmSetting_wakeTime_details_txtView">07:30</string>
+
+    <string name="settings_alarmSetting_sleepTime_textView">就寝时间</string>
+    <string name="settings_alarmSetting_sleepTime_details_txtView">23:30</string>
+
+
+    <!-- Settings Fragment > Mission -->
+    <string name="MissionPage_main_title">任务</string>
+
+    <string name="missionDismissalDuration">自动关闭闹钟</string>
+
+    <string name="settings_mission_autoDismiss_textView">自动关闭</string>
+    <string name="settings_mission_autoDismiss_details_txtView">2 分钟</string>
+    <string name="settings_mission_autoDismiss_details_txtView3min">3 分钟</string>
+    <string name="settings_mission_autoDismiss_details_txtView4min">4 分钟</string>
+    <string name="settings_mission_autoDismiss_details_txtView5min">5 分钟</string>
+
+    <string name="settingsMission_changeAutoDismiss_label">自动关闭</string>
+    <string name="settingsMission_changeAutoDismiss_rb1_text">2 分钟</string>
+    <string name="settingsMission_changeAutoDismiss_rb2_text">3 分钟</string>
+    <string name="settingsMission_changeAutoDismiss_rb3_text">4 分钟</string>
+    <string name="settingsMission_changeAutoDismiss_rb4_text">5 分钟</string>
+    <string name="settingsMission_changeAutoDismiss_btnCancel">取消</string>
+    <string name="settingsMission_changeAutoDismiss_btnOK">好的</string>
+
+    <string name="missionDifficulty">闹钟任务难度</string>
+
+    <string name="settings_mission_shakeDif_textView">甩甩</string>
+    <string name="settings_mission_shakeDif_details_txtView">普通</string>
+    <string name="settings_mission_shakeDif_details_txtViewEasy">简单</string>
+    <string name="settings_mission_shakeDif_details_txtViewHard">困难</string>
+
+    <string name="settingsMission_changeShakeDif_label">甩甩</string>
+    <string name="settingsMission_changeShakeDif_Status">普通</string>
+    <string name="settingsMission_changeShakeDif_StatusEasy">简单</string>
+    <string name="settingsMission_changeShakeDif_StatusHard">困难</string>
+    <string name="settingsMission_changeShakeDif_sliderTipEasy">简单</string>
+    <string name="settingsMission_changeShakeDif_sliderTipHard">困难</string>
+    <string name="settingsMission_changeShakeDif_btnCancel">取消</string>
+    <string name="settingsMission_changeShakeDif_btnOK">好的</string>
+
+    <string name="settings_mission_mathDif_textView">数学题</string>
+    <string name="settings_mission_mathDif_details_txtView">普通</string>
+    <string name="settings_mission_mathDif_details_txtViewEasy">简单</string>
+    <string name="settings_mission_mathDif_details_txtViewHard">困难</string>
+
+    <string name="settingsMission_changeMathDif_label">数学题</string>
+    <string name="settingsMission_changeMathDif_Status">普通</string>
+    <string name="settingsMission_changeMathDif_StatusEasy">简单</string>
+    <string name="settingsMission_changeMathDif_StatusHard">困难</string>
+    <string name="settingsMission_changeMathDif_sliderTipEasy">简单</string>
+    <string name="settingsMission_changeMathDif_sliderTipHard">困难</string>
+    <string name="settingsMission_changeMathDif_btnCancel">取消</string>
+    <string name="settingsMission_changeMathDif_btnOK">好的</string>
+
+    <string name="settings_mission_memoryDif_textView">记忆力</string>
+    <string name="settings_mission_memoryDif_details_txtView">普通</string>
+    <string name="settings_mission_memoryDif_details_txtViewEasy">简单</string>
+    <string name="settings_mission_memoryDif_details_txtViewHard">困难</string>
+
+    <string name="settingsMission_changeMemoryDif_label">记忆力</string>
+    <string name="settingsMission_changeMemoryDif_Status">普通</string>
+    <string name="settingsMission_changeMemoryDif_StatusEasy">简单</string>
+    <string name="settingsMission_changeMemoryDif_StatusHard">困难</string>
+    <string name="settingsMission_changeMemoryDif_sliderTipEasy">简单</string>
+    <string name="settingsMission_changeMemoryDif_sliderTipHard">困难</string>
+    <string name="settingsMission_changeMemoryDif_btnCancel">取消</string>
+    <string name="settingsMission_changeMemoryDif_btnOK">好的</string>
+
+
+    <!-- Settings Fragment > General -->
+    <string name="generalPage_main_title">常规</string>
+
+    <string name="settings_general__theme_textView">主题</string>
+
+    <string name="settingsGeneral_changeTheme_label">主题</string>
+    <string name="settingsGeneral_changeTheme_dark_title">夜晚模式</string>
+    <string name="settingsGeneral_changeTheme_light_title">白天模式</string>
+    <string name="settingsGeneral_changeTheme_btnCancel">取消</string>
+    <string name="settingsGeneral_changeTheme_btnOK">好的</string>
+
+    <string name="settings_general_language_textView">语言</string>
+    <string name="settings_general_language_details_txtView">简体中文</string>
+
+    <string name="settingsGeneral_changeLanguage_label">语言</string>
+    <string name="settingsGeneral_changeLanguage_eng_title">English</string>
+    <string name="settingsGeneral_changeLanguage_cn_title">简体中文</string>
+    <string name="settingsGeneral_changeLanguage_btnCancel">取消</string>
+    <string name="settingsGeneral_changeLanguage_btnOK">好的</string>
+
+
+    <!-- Settings Fragment > FAQ -->
+    <string name="FAQPage_main_title">常见问题</string>
+
+    <string name="ques0">创建闹钟时的“就寝时间”设置是什么？</string>
+    <string name="ans0">“就寝时间”表示您希望上床睡觉的时间。这也是睡眠和唤醒挑战开始的时间，您手机的 wifi 将被关闭。\n\n您将在“就寝时间”前 10 分钟将会收到米歌豆的通知，提醒您该准备睡觉了。</string>
+
+    <string name="ques1">闹钟任务是怎样的一个操作概念？</string>
+    <string name="ans1">米歌豆与正常闹钟的运作方式不同。当您使用正常闹钟，一旦闹钟响起就可以听到音乐，以及您可以轻松解除闹钟并继续入睡。为此，米歌豆提供了一种更复杂的解决方案来防止您睡过头。\n\n当您使用米歌豆设置闹钟时，您将获得 3 种类型的闹钟任务可供选择：甩甩、数学提和记忆力。当您的闹钟在早上响起时，您需要完成您之前选择的任务才能成功关闭闹钟。嗯..当然，你会得到一个手动关闭任务的按钮，但这将被视为挑战失败！\n\n当您完成或失败任务/挑战时，相应的记录将会被记录在时间线页面。</string>
+
+    <string name="ques2">如果我手动关闭闹钟任务会怎样？</string>
+    <string name="ans2">如果您通过单击“解除”按钮解除闹钟任务，它将被计为挑战失败。失败记录将在您的时间线页面中注明，因此如果您不想稍后感到内疚，请不要尝试按它并按时醒来！</string>
+
+    <string name="ques3">我如何联系开发团队？</string>
+    <string name="ans3">您可以到 设置 > 常见问题，然后单击右下角带有电子邮件图标的浮动操作按钮。您将被带到一个页面并在其中写下您的反馈然后将其发送给我们。</string>
+
+    <string name="ques4">我什么时候才能再次使用wifi？</string>
+    <string name="ans4">一旦您完成挑战（或者当您决定结束/放弃挑战时），您就可以使用 wifi。</string>
+
+    <string name="ques5">救命！闹钟的任务对我来说太难了。</string>
+    <string name="ans5">您可以前往 设置 > 任务 来选择每个任务的难度级别。</string>
+
+    <string name="ques6">我可以导入自己的铃声并在闹钟上使用吗？</string>
+    <string name="ans6">很遗憾，你现在还不能这么做。我们将在未来的更新中包含此功能，请放心！</string>
+
+    <string name="ques7">闹钟自动解除需要多长时间？</string>
+    <string name="ans7">这取决于你。您可以通过转到 设置 > 任务 来设置时间限制。</string>
+
+    <string name="ques8">时间线页面的目的是什么？</string>
+    <string name="ans8">时间线页面将记录您的所有活动：您何时失败、完成或放弃挑战。</string>
+
+    <string name="ques9">米歌豆是否为用户们提供深色主题？</string>
+    <string name="ans9">有的！您可以前往 设置 > 常规 来切换应用程序的主题。</string>
+
+    <string name="ques10">如何更更换应用程序的语言？</string>
+    <string name="ans10">您可以到 设置 > 常规 > 语言 来更改语言。</string>
+
+    <string name="ques11">如果我中途放弃睡眠和唤醒挑战会怎样？</string>
+    <string name="ans11">它将被视为挑战失败，此记录将在您的时间线页面上注明。（因为我们想让你对此感到内疚！）</string>
+
+    <string name="ques12">当睡眠和唤醒挑战当前处于活动状态时，我如何使用我的 wifi？</string>
+    <string name="ans12">当有持续的挑战时，您不得使用 wifi。要使用wifi的唯一方法就是放弃挑战。</string>
+
+    <string name="FeedbackPage_main_title">问题反馈</string>
+
+    <string name="feedback_selectFeedBackType_title">选择反馈类型</string>
+    <string name="bug_crash_RB">BUG/系统崩溃</string>
+    <string name="function_improve_RB">功能改进</string>
+
+    <string name="feedback_userContactDetails">电话号码（允许为空）</string>
+    <string name="feedback_userFeedbackContent">内容（最多 400 个字符）</string>
+
+    <string name="feedback_send_btn">撰写</string>
+
+    <string name="feedback_content_empty_toast">请写下您的反馈信息。</string>
+
+
+    <!-- Settings Fragment > About -->
+    <string name="aboutPage_main_title">关于我们</string>
+
+    <string name="about_app_name">米歌豆</string>
+    <string name="about_app_version">v1.0.0</string>
+
+    <string name="about_rate_app_button">评价米歌豆</string>
+
+    <string name="about_share_button">分享给朋友</string>
+    <string name="share_content">嘿，我发现了一个很棒的应用程序，米歌豆。\n\n米歌豆是一款高级闹钟应用程序，旨在帮助您跟踪睡眠时间表并保持健康的生活方式。\n\n更多详情请点链接：https://www.onenote.com/?404&amp;public=1</string>
+
+    <string name="about_copyright_textView1">© 2021 版权所有</string>
+    <string name="about_copyright_textView2">玉轩股份有限公司</string>
+
+    <!-- Mission Activity String values -->
+    <string name="dismiss_btn">取消任务</string>
+    <string name="mission_math_desc">答题 或 取消</string>
+    <string name="mission_shake_desc">甩 或 取消</string>
+    <string name="solve_btn">解决</string>
+    <string name="mission_math_hint">答案</string>
+    <string name="mission_completed">任务完成!</string>
+    <string name="mission_failed">任务失败!</string>
+    <string name="mission_dismissed">任务已被取消!</string>
+
+    <string name="alarm_ring_notification">闹钟响了！该起床了。。。</string>
+
+</resources>

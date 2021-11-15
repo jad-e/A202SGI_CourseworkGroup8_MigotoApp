@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/createAlarm_changeAlarmTitle_bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_background_1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/createAlarm_changeAlarmTitle_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="left"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/cabsat_label_title"
+        android:textColor="?attr/CABSAT_main_title_color"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/createAlarm_changeAlarmTitle_userInput_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/transparent"
+        android:cursorVisible="true"
+        android:hint="@string/cabsat_edit_text_hint"
+        android:textColor="?attr/CABSAT_edit_text_text_color"
+        android:textColorHint="?attr/CABSAT_edit_text_hint_color"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/createAlarm_changeTitle_btnCancel"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bottom_sheet_negative_button_background"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@string/cabsat_btnCancel_text"
+            android:textColor="?attr/bs_button_cancel_text_color"
+            android:textSize="16sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/createAlarm_changeTitle_btnOK"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bottom_sheet_positive_button_background"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@string/cabsat_btnOk_text"
+            android:textColor="?attr/bs_button_ok_text_color"
+            android:textSize="16sp"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+</LinearLayout>

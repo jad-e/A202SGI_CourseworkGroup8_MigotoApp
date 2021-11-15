@@ -1,0 +1,362 @@
+<resources>
+    <string name="app_name">Migoto</string>
+
+    <!-- nav menu -->
+    <string name="menu_alarm">Alarm</string>
+    <string name="menu_timeline">Timeline</string>
+    <string name="menu_timer">Timer</string>
+    <string name="menu_settings">Settings</string>
+
+
+    <!-- BedTime Fragment -->
+    <string name="no_alarm_set">No alarms set</string>
+
+    <!-- BedTime Fragment > list item alarm -->
+    <string name="list_item_alarm_mission_text">Mission</string>
+    <string name="list_item_alarm_ringtone_text">Ringtone</string>
+    <string name="list_item_alarm_vibrate_text">Vibrate</string>
+
+    <string name="list_item_alarm_mission_value1">Shake</string>
+    <string name="list_item_alarm_mission_value2">Math</string>
+    <string name="list_item_alarm_mission_value3">Memory</string>
+
+    <string name="list_item_alarm_ringtone_value1">Ringtone 1</string>
+    <string name="list_item_alarm_ringtone_value2">Ringtone 2</string>
+    <string name="list_item_alarm_ringtone_value3">Ringtone 3</string>
+    <string name="list_item_alarm_ringtone_value4">Ringtone 4</string>
+
+    <string name="list_item_alarm_vibrate_valueOn">On</string>
+    <string name="list_item_alarm_vibrate_valueOff">Off</string>
+
+    <!-- BedTime Fragment > list item alarm > fragment alarm clock -->
+    <string name="fac_alarm_title_text">Alarm Title</string>
+    <string name="fac_bedtime_title_text">BedTime</string>
+    <string name="fac_mission_title_text">Mission</string>
+    <string name="fac_ringtone_title_text">Ringtone</string>
+    <string name="fac_vibrate_title_text">Vibrate</string>
+
+    <string name="fac_mission_details_text1">Shake</string>
+    <string name="fac_mission_details_text2">Math</string>
+    <string name="fac_mission_details_text3">Memory</string>
+
+    <string name="fac_ringtone_details_text1">Ringtone 1</string>
+    <string name="fac_ringtone_details_text2">Ringtone 2</string>
+    <string name="fac_ringtone_details_text3">Ringtone 3</string>
+    <string name="fac_ringtone_details_text4">Ringtone 4</string>
+
+    <string name="fac_save_btn_text">Save</string>
+
+    <string name="edit_alarm_success_msg">Alarm clock updated!</string>
+
+    <!-- ... fragment alarm clock > edit alarm bottom sheet alarm mission -->
+    <string name="eabsam_mission_title">Mission</string>
+    <string name="eabsam_shake_title">Shake</string>
+    <string name="eabsam_math_title">Math</string>
+    <string name="eabsam_memory_title">Memory</string>
+    <string name="eabsam_btnCancel_text">Cancel</string>
+    <string name="eabsam_btnOk_text">OK</string>
+
+    <!-- ... fragment alarm clock > edit alarm bottom sheet alarm ringtone -->
+    <string name="eabsar_ringtone_title">Ringtone</string>
+    <string name="eabsar_ringtone1_title">Ringtone 1</string>
+    <string name="eabsar_ringtone2_title">Ringtone 2</string>
+    <string name="eabsar_ringtone3_title">Ringtone 3</string>
+    <string name="eabsar_ringtone4_title">Ringtone 4</string>
+    <string name="eabsar_btnCancel_text">Cancel</string>
+    <string name="eabsar_btnOk_text">OK</string>
+
+    <!-- ... fragment alarm clock > edit alarm bottom sheet alarm title -->
+    <string name="eabsat_label_title">Label</string>
+    <string name="eabsat_edit_text_hint">Please enter a label</string>
+    <string name="eabsat_btnCancel_text">Cancel</string>
+    <string name="eabsat_btnOk_text">OK</string>
+
+    <!-- create alarm activity -->
+    <string name="caa_alarm_title_text">Alarm Title</string>
+    <string name="caa_bedtime_title_text">BedTime</string>
+    <string name="caa_mission_title_text">Mission</string>
+    <string name="caa_ringtone_title_text">Ringtone</string>
+    <string name="caa_vibrate_title_text">Vibrate</string>
+
+    <string name="caa_mission_details_text1">Shake</string>
+    <string name="caa_mission_details_text2">Math</string>
+    <string name="caa_mission_details_text3">Memory</string>
+
+    <string name="caa_ringtone_details_text1">Ringtone 1</string>
+    <string name="caa_ringtone_details_text2">Ringtone 2</string>
+    <string name="caa_ringtone_details_text3">Ringtone 3</string>
+    <string name="caa_ringtone_details_text4">Ringtone 4</string>
+
+    <string name="caa_save_btn_text">Save</string>
+
+    <!-- create alarm activity  > create alarm bottom sheet alarm mission -->
+    <string name="cabsam_mission_title">Mission</string>
+    <string name="cabsam_shake_title">Shake</string>
+    <string name="cabsam_math_title">Math</string>
+    <string name="cabsam_memory_title">Memory</string>
+    <string name="cabsam_btnCancel_text">Cancel</string>
+    <string name="cabsam_btnOk_text">OK</string>
+
+    <!-- create alarm activity  > create alarm bottom sheet alarm ringtone -->
+    <string name="cabsar_ringtone_title">Ringtone</string>
+    <string name="cabsar_ringtone1_title">Ringtone 1</string>
+    <string name="cabsar_ringtone2_title">Ringtone 2</string>
+    <string name="cabsar_ringtone3_title">Ringtone 3</string>
+    <string name="cabsar_ringtone4_title">Ringtone 4</string>
+    <string name="cabsar_btnCancel_text">Cancel</string>
+    <string name="cabsar_btnOk_text">OK</string>
+
+    <!-- create alarm activity  > create alarm bottom sheet alarm title -->
+    <string name="cabsat_label_title">Label</string>
+    <string name="cabsat_edit_text_hint">Please enter a label</string>
+    <string name="cabsat_btnCancel_text">Cancel</string>
+    <string name="cabsat_btnOk_text">OK</string>
+
+    <string name="no_title_set">None</string>
+
+
+    <!-- Timeline Fragment -->
+    <string name="no_challenges_record">No challenges record</string>
+    <string name="complete_challenge_status_text">You\'ve completed a challenge!</string>
+    <string name="fail_challenge_status_text">You\'ve failed a challenge!</string>
+
+    <!-- Timer Fragment -->
+
+
+    <!-- Settings Fragment -->
+    <string name="settings_main_title">Settings</string>
+
+    <string name="settings_profile_card_title">Profile</string>
+    <string name="settings_profile_username_label">Username</string>
+    <string name="settings_profile_username_value">User</string>
+
+    <string name="usernameTextView">Username</string>
+    <string name="username_desc_textView2">Tell us how shall we address you</string>
+    <string name="username_input">your name</string>
+    <string name="settings_username_btnCancel">Cancel</string>
+    <string name="settings_username_btnOK">OK</string>
+
+    <string name="settings_profile_birthday_label">Birthday</string>
+    <string name="settings_profile_birthday_value">6/25</string>
+
+    <string name="birthday_textView">Birthday</string>
+    <string name="birthday_textView2">We want to celebrate it with you</string>
+    <string name="birthMonth_label">Month</string>
+    <string name="birthDay_label">Day</string>
+    <string name="settings_birthday_btnCancel">Cancel</string>
+    <string name="settings_birthday_btnOK">OK</string>
+
+
+    <string name="settings_alarmSetting_textView">Alarm Setting</string>
+    <string name="settings_Mission_textView">Mission</string>
+    <string name="settings_General_textView">General</string>
+    <string name="settings_FAQ_textView">FAQ</string>
+    <string name="settings_About_textView">About</string>
+
+
+    <!-- Settings Fragment > Alarm Setting -->
+    <string name="AlarmSettingPage_main_title">Alarm Setting</string>
+
+    <string name="newAlarmDefaultSetting">New Alarm Default Setting</string>
+
+    <string name="settings_alarmSetting_Mission_textView">Mission</string>
+    <string name="settings_alarmSetting_Mission_details_txtView">Shake</string>
+    <string name="settings_alarmSetting_Mission_details_txtViewMath">Math</string>
+    <string name="settings_alarmSetting_Mission_details_txtViewMemory">Memory</string>
+
+    <string name="defaultAlarm_changeAlarmMission_label">Mission</string>
+    <string name="defaultAlarm_changeAlarmMission_mission_shake_title">Shake</string>
+    <string name="defaultAlarm_changeAlarmMission_mission_math_title">Math</string>
+    <string name="defaultAlarm_changeAlarmMission_mission_memory_title">Memory</string>
+    <string name="defaultAlarm_changeMission_btnCancel">Cancel</string>
+    <string name="defaultAlarm_changeMission_btnOK">OK</string>
+
+    <string name="settings_alarmSetting_Ringtone_textView">Ringtone</string>
+    <string name="settings_alarmSetting_Ringtone_details_txtView">Ringtone 1</string>
+    <string name="settings_alarmSetting_Ringtone_details_txtViewRing2">Ringtone 2</string>
+    <string name="settings_alarmSetting_Ringtone_details_txtViewRing3">Ringtone 3</string>
+    <string name="settings_alarmSetting_Ringtone_details_txtViewRing4">Ringtone 4</string>
+
+    <string name="defaultAlarm_changeAlarmRingtone_label">Ringtone</string>
+    <string name="defaultAlarm_changeAlarmRingtone_rb1_text">Ringtone 1</string>
+    <string name="defaultAlarm_changeAlarmRingtone_rb2_text">Ringtone 2</string>
+    <string name="defaultAlarm_changeAlarmRingtone_rb3_text">Ringtone 3</string>
+    <string name="defaultAlarm_changeAlarmRingtone_rb4_text">Ringtone 4</string>
+    <string name="defaultAlarm_changeRingtone_btnCancel">Cancel</string>
+    <string name="defaultAlarm_changeRingtone_btnOK">OK</string>
+
+    <string name="settings_alarmSetting_wakeTime_textView">Wake Time</string>
+    <string name="settings_alarmSetting_wakeTime_details_txtView">07:30</string>
+
+    <string name="settings_alarmSetting_sleepTime_textView">Sleep Time</string>
+    <string name="settings_alarmSetting_sleepTime_details_txtView">23:30</string>
+
+
+    <!-- Settings Fragment > Mission -->
+    <string name="MissionPage_main_title">Mission</string>
+
+    <string name="missionDismissalDuration">Mission Dismissal</string>
+
+    <string name="settings_mission_autoDismiss_textView">Auto dismiss</string>
+    <string name="settings_mission_autoDismiss_details_txtView">2 minutes</string>
+    <string name="settings_mission_autoDismiss_details_txtView3min">3 minutes</string>
+    <string name="settings_mission_autoDismiss_details_txtView4min">4 minutes</string>
+    <string name="settings_mission_autoDismiss_details_txtView5min">5 minutes</string>
+
+    <string name="settingsMission_changeAutoDismiss_label">Auto Dismiss</string>
+    <string name="settingsMission_changeAutoDismiss_rb1_text">2 minutes</string>
+    <string name="settingsMission_changeAutoDismiss_rb2_text">3 minutes</string>
+    <string name="settingsMission_changeAutoDismiss_rb3_text">4 minutes</string>
+    <string name="settingsMission_changeAutoDismiss_rb4_text">5 minutes</string>
+    <string name="settingsMission_changeAutoDismiss_btnCancel">Cancel</string>
+    <string name="settingsMission_changeAutoDismiss_btnOK">OK</string>
+
+    <string name="missionDifficulty">Mission Difficulty</string>
+
+    <string name="settings_mission_shakeDif_textView">Shake</string>
+    <string name="settings_mission_shakeDif_details_txtView">Normal</string>
+    <string name="settings_mission_shakeDif_details_txtViewEasy">Easy</string>
+    <string name="settings_mission_shakeDif_details_txtViewHard">Hard</string>
+
+    <string name="settingsMission_changeShakeDif_label">Shake</string>
+    <string name="settingsMission_changeShakeDif_Status">Normal</string>
+    <string name="settingsMission_changeShakeDif_StatusEasy">Easy</string>
+    <string name="settingsMission_changeShakeDif_StatusHard">Hard</string>
+    <string name="settingsMission_changeShakeDif_sliderTipEasy">Easy</string>
+    <string name="settingsMission_changeShakeDif_sliderTipHard">Hard</string>
+    <string name="settingsMission_changeShakeDif_btnCancel">Cancel</string>
+    <string name="settingsMission_changeShakeDif_btnOK">OK</string>
+
+    <string name="settings_mission_mathDif_textView">Math</string>
+    <string name="settings_mission_mathDif_details_txtView">Normal</string>
+    <string name="settings_mission_mathDif_details_txtViewEasy">Easy</string>
+    <string name="settings_mission_mathDif_details_txtViewHard">Hard</string>
+
+    <string name="settingsMission_changeMathDif_label">Math</string>
+    <string name="settingsMission_changeMathDif_Status">Normal</string>
+    <string name="settingsMission_changeMathDif_StatusEasy">Easy</string>
+    <string name="settingsMission_changeMathDif_StatusHard">Hard</string>
+    <string name="settingsMission_changeMathDif_sliderTipEasy">Easy</string>
+    <string name="settingsMission_changeMathDif_sliderTipHard">Hard</string>
+    <string name="settingsMission_changeMathDif_btnCancel">Cancel</string>
+    <string name="settingsMission_changeMathDif_btnOK">OK</string>
+
+    <string name="settings_mission_memoryDif_textView">Memory</string>
+    <string name="settings_mission_memoryDif_details_txtView">Normal</string>
+    <string name="settings_mission_memoryDif_details_txtViewEasy">Easy</string>
+    <string name="settings_mission_memoryDif_details_txtViewHard">Hard</string>
+
+    <string name="settingsMission_changeMemoryDif_label">Memory</string>
+    <string name="settingsMission_changeMemoryDif_Status">Normal</string>
+    <string name="settingsMission_changeMemoryDif_StatusEasy">Easy</string>
+    <string name="settingsMission_changeMemoryDif_StatusHard">Hard</string>
+    <string name="settingsMission_changeMemoryDif_sliderTipEasy">Easy</string>
+    <string name="settingsMission_changeMemoryDif_sliderTipHard">Hard</string>
+    <string name="settingsMission_changeMemoryDif_btnCancel">Cancel</string>
+    <string name="settingsMission_changeMemoryDif_btnOK">OK</string>
+
+
+    <!-- Settings Fragment > General -->
+    <string name="generalPage_main_title">General</string>
+
+    <string name="settings_general__theme_textView">Theme</string>
+
+    <string name="settingsGeneral_changeTheme_label">Theme</string>
+    <string name="settingsGeneral_changeTheme_dark_title">Dark</string>
+    <string name="settingsGeneral_changeTheme_light_title">Light</string>
+    <string name="settingsGeneral_changeTheme_btnCancel">Cancel</string>
+    <string name="settingsGeneral_changeTheme_btnOK">OK</string>
+
+    <string name="settings_general_language_textView">Language</string>
+    <string name="settings_general_language_details_txtView">English</string>
+
+    <string name="settingsGeneral_changeLanguage_label">Language</string>
+    <string name="settingsGeneral_changeLanguage_eng_title">English</string>
+    <string name="settingsGeneral_changeLanguage_cn_title">简体中文</string>
+    <string name="settingsGeneral_changeLanguage_btnCancel">Cancel</string>
+    <string name="settingsGeneral_changeLanguage_btnOK">OK</string>
+
+
+    <!-- Settings Fragment > FAQ -->
+    <string name="FAQPage_main_title">FAQ</string>
+
+    <string name="ques0">What is the "BedTime" setting when I create an alarm?</string>
+    <string name="ans0">"BedTime" simply means the time you wish to go to bed. It is also the time where the Sleep &amp; Wake Up challenge commences and your device\'s wifi will be turned off.\n\nYou will receive a notification from Migoto 10 minutes before the "BedTime", reminding you that you should prepare to go to sleep.</string>
+
+    <string name="ques1">How do alarm missions work?</string>
+    <string name="ans1">Unlike how normal alarms would work — hear music once the alarm starts to go off as well as how you could easily dismiss an alarm and continue back to your sleep, Migoto provides a more sophisticated solution to prevent you from oversleeping.\n\nWhen you use Migoto to set an alarm, you are given 3 types of missions to choose from: Shake, Math and Memory. When your alarm goes off in the morning, you will need to complete the mission that you chose previously in order to successfully switch off the alarm. Well..of course you are provided a button to manually dismiss the mission, but that would be counted as a failed challenge!\n\nWhen you complete or fail a mission/challenge, the respective record will be stated in the Timeline Page.</string>
+
+    <string name="ques2">What happens if I manually dismiss an alarm mission?</string>
+    <string name="ans2">If you dismiss an alarm mission by clicking on the Dismiss button, it will be counted as a failed attempt. The fail record will be stated in your Timeline Page, so don\'t try press it and wake up on time if you don\'t want to feel guilty later!</string>
+
+    <string name="ques3">How do I contact the dev team?</string>
+    <string name="ans3">You may reach out to us by going to Settings > FAQ, then click on the floating action button on the bottom right corner that has an email icon on it. You will be taken to a page where you can write your feedback and send it to us.</string>
+
+    <string name="ques4">When will I get to use the wifi again?</string>
+    <string name="ans4">You can get access to the wifi once you\'ve completed the challenge (or well, when you decide to end / abandon the challenge).</string>
+
+    <string name="ques5">Help! The alarm\'s mission is too hard for me.</string>
+    <string name="ans5">You may choose each mission\'s difficulty level by going to Settings > Mission.</string>
+
+    <string name="ques6">Can I import my own ringtone and use it on my alarm?</string>
+    <string name="ans6">We hate to break it to you, but sadly, you can\'t right now. We will include this feature in our future updates, so rest assured!</string>
+
+    <string name="ques7">How long does it take for an alarm to dismiss itself automatically?</string>
+    <string name="ans7">It depends on you. You can set the time limit by going to Settings > Mission.</string>
+
+    <string name="ques8">What is the purpose of the Timeline Page?</string>
+    <string name="ans8">The Timeline Page will record down all of your activities — when did you fail, complete or abandon a challenge.</string>
+
+    <string name="ques9">Does Migoto provide dark theme for its users?</string>
+    <string name="ans9">Yes we do! You can toggle the app\'s theme by going to Settings > General.</string>
+
+    <string name="ques10">How can I change the app\'s language?</string>
+    <string name="ans10">You may change the language by going to Settings > General > Language.</string>
+
+    <string name="ques11">What happens if I abandon a Sleep &amp; WakeUp challenge halfway?</string>
+    <string name="ans11">It will be counted as a failed attempt and this record will be stated at your Timeline Page. (Because we want you to feel guilty about it!)</string>
+
+    <string name="ques12">How can I use my wifi when a Sleep &amp; Wake Up challenge is currently active?</string>
+    <string name="ans12">You are not allowed to use the wifi when there is an ongoing challenge. The only way to use the wifi is to abandon the challenge.</string>
+
+    <string name="FeedbackPage_main_title">Feedback</string>
+
+    <string name="feedback_selectFeedBackType_title">Select feedback type</string>
+    <string name="bug_crash_RB">Bug/Crash</string>
+    <string name="function_improve_RB">Function improvement</string>
+
+    <string name="feedback_userContactDetails">Phone Number (Allow empty)</string>
+    <string name="feedback_userFeedbackContent">Content (400 chars at most)</string>
+
+    <string name="feedback_send_btn">Compose</string>
+
+    <string name="feedback_content_empty_toast">Please write your feedback message.</string>
+
+
+    <!-- Settings Fragment > About -->
+    <string name="aboutPage_main_title">About</string>
+
+    <string name="about_app_name">Migoto</string>
+    <string name="about_app_version">v1.0.0</string>
+
+    <string name="about_rate_app_button">Rate Migoto App</string>
+
+    <string name="about_share_button">Share To Friends</string>
+    <string name="share_content">Hey, I found an awesome app, Migoto.\n\nMigoto is an advance alarm clock application designed to help you keep track of your sleep schedule and maintain a healthy lifestyle.\n\nSee link for details: https://www.onenote.com/?404&amp;public=1</string>
+
+    <string name="about_copyright_textView1">© 2021 All Rights Reserved</string>
+    <string name="about_copyright_textView2">Jade Xuan Co., LTD</string>
+
+    <!-- Mission Activity String values -->
+    <string name="dismiss_btn">Dismiss</string>
+    <string name="mission_math_desc">Solve or Dismiss</string>
+    <string name="mission_shake_desc">Shake or Dismiss</string>
+    <string name="solve_btn">Solve</string>
+    <string name="mission_math_hint">Answer</string>
+    <string name="mission_completed">Mission Completed!</string>
+    <string name="mission_failed">Mission Failed!</string>
+    <string name="mission_dismissed">Mission Dismissed!</string>
+
+    <string name="alarm_ring_notification">It\'s ringing! Time to wake up...</string>
+
+</resources>

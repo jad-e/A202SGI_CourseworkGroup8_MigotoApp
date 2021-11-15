@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/du_background_color"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/usernameTextView"
+        android:textColor="?attr/du_main_title_color"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username_desc_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/username_desc_textView2"
+        android:textColor="?attr/du_desc_color"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTextView" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:color/transparent"
+        android:cursorVisible="true"
+        android:hint="@string/username_input"
+        android:padding="10dp"
+        android:textColor="?attr/du_edit_text_text_color"
+        android:textColorHint="?attr/du_edit_text_hint_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_desc_textView2" />
+
+
+    <Button
+        android:id="@+id/settings_username_btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="?attr/al_button_cancel_background_color"
+        android:text="@string/settings_username_btnCancel"
+        android:textAllCaps="false"
+        android:textColor="?attr/al_button_cancel_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_username_btnOK"
+        app:layout_constraintEnd_toStartOf="@+id/settings_username_btnOK"
+        app:layout_constraintTop_toTopOf="@+id/settings_username_btnOK" />
+
+    <Button
+        android:id="@+id/settings_username_btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="?attr/al_button_ok_background_color"
+        android:text="@string/settings_username_btnOK"
+        android:textAllCaps="false"
+        android:textColor="?attr/al_button_ok_text_color"
+        app:layout_constraintEnd_toEndOf="@+id/username_input"
+        app:layout_constraintTop_toBottomOf="@+id/username_input" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

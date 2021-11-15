@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/as_background_color"
+    tools:context=".AlarmSettingActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/AlarmSettingPage_backImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="15dp"
+            android:src="@drawable/ic_back_arrow"
+            app:tint="?attr/as_back_arrow_color" />
+
+        <TextView
+            android:id="@+id/AlarmSettingPage_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@string/AlarmSettingPage_main_title"
+            android:textColor="?attr/as_main_title_color"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+
+            <TextView
+                android:id="@+id/newAlarmDefaultSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="@string/newAlarmDefaultSetting"
+                android:textColor="?attr/as_subtitle_color" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/settings_alarmSetting_Mission_card"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="?attr/as_card_background_color"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/settings_alarmSetting_Mission_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:text="@string/settings_alarmSetting_Mission_textView"
+                        android:textColor="?attr/as_card_title_color"
+                        android:textSize="19sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/settings_alarmSetting_Mission_details_txtView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_alarmSetting_Mission_details_txtView"
+                        android:textColor="?attr/as_card_details_color"
+                        app:layout_constraintStart_toStartOf="@+id/settings_alarmSetting_Mission_textView"
+                        app:layout_constraintTop_toBottomOf="@+id/settings_alarmSetting_Mission_textView" />
+
+                    <ImageView
+                        android:id="@+id/settings_alarmSetting_Mission_clickForMore"
+                        android:layout_width="35sp"
+                        android:layout_height="35sp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_arrow_to_right"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="?attr/as_card_more_arrow_color" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/settings_alarmSetting_Ringtone_card"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="?attr/as_card_background_color"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/settings_alarmSetting_Ringtone_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:text="@string/settings_alarmSetting_Ringtone_textView"
+                        android:textColor="?attr/as_card_title_color"
+                        android:textSize="19sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/settings_alarmSetting_Ringtone_details_txtView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_alarmSetting_Ringtone_details_txtView"
+                        android:textColor="?attr/as_card_details_color"
+                        app:layout_constraintStart_toStartOf="@+id/settings_alarmSetting_Ringtone_textView"
+                        app:layout_constraintTop_toBottomOf="@+id/settings_alarmSetting_Ringtone_textView" />
+
+                    <ImageView
+                        android:id="@+id/settings_alarmSetting_Ringtone_clickForMore"
+                        android:layout_width="35sp"
+                        android:layout_height="35sp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_arrow_to_right"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="?attr/as_card_more_arrow_color" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/settings_alarmSetting_wakeTime_card"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="?attr/as_card_background_color"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/settings_alarmSetting_wakeTime_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:text="@string/settings_alarmSetting_wakeTime_textView"
+                        android:textColor="?attr/as_card_title_color"
+                        android:textSize="19sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/settings_alarmSetting_wakeTime_details_txtView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_alarmSetting_wakeTime_details_txtView"
+                        android:textColor="?attr/as_card_details_color"
+                        app:layout_constraintStart_toStartOf="@+id/settings_alarmSetting_wakeTime_textView"
+                        app:layout_constraintTop_toBottomOf="@+id/settings_alarmSetting_wakeTime_textView" />
+
+                    <ImageView
+                        android:id="@+id/settings_alarmSetting_wakeTime_clickForMore"
+                        android:layout_width="35sp"
+                        android:layout_height="35sp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_arrow_to_right"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="?attr/as_card_more_arrow_color" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

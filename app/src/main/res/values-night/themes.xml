@@ -1,0 +1,273 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="darkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- MAIN ACTIVITY  -->
+        <item name="main_activity_background_color">#0e1017</item>
+        <item name="nav_bar_color">#1b203d</item>
+        <item name="nav_bar_inactive_item_color">#707b98</item>
+        <item name="nav_bar_active_item_color">#f5f8fe</item>
+
+
+        <!-- 4 MAIN FRAGMENTS  -->
+
+        <!-- fragment bedtime -->
+        <item name="no_alarms_set_textView_color">#69778a</item>
+
+        <!-- fragment bedtime > list item clock -->
+        <item name="lic_card_background_color">#181d2e</item>
+        <item name="lic_card_active_details_color">#f6f8ff</item>
+        <item name="lic_card_inactive_details_color">#32425f</item>
+
+        <!-- fragment bedtime > list item clock > alarm clock activity -->
+        <item name="aca_background_color">#0e1017</item>
+
+        <!-- fragment bedtime > list item clock > fragment alarm clock -->
+        <item name="fac_back_arrow_color">#ffffff</item>
+        <item name="fac_number_picker_color">#304260</item>
+        <item name="fac_number_picker_text_color">#f7f9ff</item>
+        <item name="fac_cards_background_color">#181d2e</item>
+        <item name="fac_cards_icon_color">#f6f8ff</item>
+        <item name="fac_cards_title_color">#f6f8ff</item>
+        <item name="fac_cards_details_color">#5c6b88</item>
+        <item name="fac_cards_more_arrow_color">#50607c</item>
+
+        <!-- fragment bedtime > create alarm activity -->
+        <item name="CAA_background_color">#0e1017</item>
+        <item name="CAA_back_arrow_color">#ffffff</item>
+        <item name="CAA_number_picker_color">#304260</item>
+        <item name="CAA_number_picker_text_color">#f7f9ff</item>
+        <item name="CAA_cards_background_color">#181d2e</item>
+        <item name="CAA_cards_icon_color">#f6f8ff</item>
+        <item name="CAA_cards_title_color">#f6f8ff</item>
+        <item name="CAA_cards_details_color">#5c6b88</item>
+        <item name="CAA_cards_more_arrow_color">#50607c</item>
+
+        <!-- fragment timeline -->
+        <item name="no_challenges_record_textView_color">#69778a</item>
+
+        <!-- fragment timeline > list item challenge -->
+        <item name="challenge_timeline_vertical_line_color">#32425c</item>
+        <item name="challenge_finalize_time_card_color">#171c2f</item>
+        <item name="challenge_finalize_time_text_color">#eff3fc</item>
+        <item name="challenge_status_text_color">#eff3fc</item>
+        <item name="challenge_card_bottom_color">#171c2f</item>
+        <item name="challenge_alarm_icon_color">#eff3fc</item>
+        <item name="challenge_alarm_time_text_color">#eff3fc</item>
+
+        <!-- fragment timer -->
+
+        <!-- fragment settings -->
+        <item name="fs_main_title_color">#f4f7fe</item>
+        <item name="fs_card_background_color">#181d2e</item>
+        <item name="fs_card_profile_icon_color">#808fad</item>
+        <item name="fs_card_title_color">#eff3fc</item>
+        <item name="fs_card_details_color">#808fad</item>
+        <item name="fs_card_horizontal_divider_color">#34425c</item>
+        <item name="fs_card_more_arrow_color">#34425c</item>
+
+        <!-- fragment settings > alarm setting activity -->
+        <item name="as_background_color">#0e1017</item>
+        <item name="as_main_title_color">#f4f6fd</item>
+        <item name="as_back_arrow_color">#ffffff</item>
+        <item name="as_subtitle_color">#7e8da5</item>
+        <item name="as_card_background_color">#181d2e</item>
+        <item name="as_card_title_color">#fbffff</item>
+        <item name="as_card_details_color">#5a6981</item>
+        <item name="as_card_more_arrow_color">#33415a</item>
+
+        <!-- fragment settings > mission setting activity -->
+        <item name="ms_background_color">#0e1017</item>
+        <item name="ms_main_title_color">#f4f6fd</item>
+        <item name="ms_back_arrow_color">#ffffff</item>
+        <item name="ms_subtitle_color">#7e8da5</item>
+        <item name="ms_card_background_color">#181d2e</item>
+        <item name="ms_card_title_color">#fbffff</item>
+        <item name="ms_card_details_color">#5a6981</item>
+        <item name="ms_card_more_arrow_color">#33415a</item>
+
+        <!-- fragment settings > general setting activity -->
+        <item name="gs_background_color">#0e1017</item>
+        <item name="gs_main_title_color">#f4f6fd</item>
+        <item name="gs_back_arrow_color">#ffffff</item>
+        <item name="gs_card_background_color">#181d2e</item>
+        <item name="gs_card_title_color">#fbffff</item>
+        <item name="gs_card_details_color">#5a6981</item>
+        <item name="gs_card_more_arrow_color">#33415a</item>
+
+        <!-- fragment settings > help feedback activity -->
+        <item name="hf_background_color">#0e1017</item>
+        <item name="hf_main_title_color">#f4f6fd</item>
+        <item name="hf_back_arrow_color">#ffffff</item>
+
+        <!-- fragment settings > help feedback activity > list view item -->
+        <item name="lvi_text_color">#e9f1ff</item>
+
+        <!-- fragment settings > help feedback activity > list view item > faq item activity -->
+        <item name="faqia_background_color">#0e1017</item>
+
+        <!-- fragment settings > help feedback activity > list view item > fragment faq item -->
+        <item name="ffaqi_back_arrow_color">#ffffff</item>
+        <item name="ffaqi_title_color">#ebeef5</item>
+        <item name="ffaqi_content_color">#e4e2e4</item>
+        <item name="ffaqi_horizontal_divider">#7e8da5</item>
+
+        <!-- fragment settings > feedback activity -->
+        <item name="f_background_color">#0e1017</item>
+        <item name="f_main_title_color">#f4f6fd</item>
+        <item name="f_back_arrow_color">#ffffff</item>
+        <item name="f_subtitle_color">#7e8da5</item>
+        <item name="f_edit_text_background_color">#181d2e</item>
+        <item name="f_edit_text_hint_color">#9fa2af</item>
+        <item name="f_edit_text_text_color">#ffffff</item>
+
+        <!-- fragment settings > about activity -->
+        <item name="ab_background_color">#0e1017</item>
+        <item name="ab_main_title_color">#f4f6fd</item>
+        <item name="ab_back_arrow_color">#ffffff</item>
+        <item name="ab_app_name_color">#f4f6fd</item>
+        <item name="ab_version_color">#8796ac</item>
+        <item name="ab_button_text_color">#f4f9ff</item>
+        <item name="ab_rights_text_color">#8796ac</item>
+
+
+        <!-- ALERT DIALOGS -->
+
+        <!-- dialog birthday -->
+        <item name="db_background_color">#181d2e</item>
+        <item name="db_main_title_color">#ffffff</item>
+        <item name="db_desc_color">#31425f</item>
+        <item name="db_details_color">#31425f</item>
+        <item name="db_number_picker_color">#304260</item>
+        <item name="db_number_picker_text_color">#f6f8ff</item>
+
+        <!-- dialog username -->
+        <item name="du_background_color">#181d2e</item>
+        <item name="du_main_title_color">#ffffff</item>
+        <item name="du_desc_color">#31425f</item>
+        <item name="du_edit_text_text_color">#e5e9f3</item>
+        <item name="du_edit_text_hint_color">#31425f</item>
+
+        <!-- ~alert dialog general view colors~ -->
+        <item name="al_button_cancel_background_color">#4f607e</item>
+        <item name="al_button_cancel_text_color">#fbffff</item>
+        <item name="al_button_ok_background_color">#228ae8</item>
+        <item name="al_button_ok_text_color">#fbffff</item>
+
+
+        <!-- BOTTOM SHEETS -->
+
+        <!-- create alarm bottom sheet alarm mission -->
+        <item name="CABSAM_background_color">#0e1017</item>
+        <item name="CABSAM_main_title_color">#4f607e</item>
+        <item name="CABSAM_card_background_color">#181d2e</item>
+        <item name="CABSAM_card_icon_color">#f6f8ff</item>
+        <item name="CABSAM_card_title_color">#f6f8ff</item>
+
+        <!-- create alarm bottom sheet alarm ringtone -->
+        <item name="CABSAR_background_color">#0e1017</item>
+        <item name="CABSAR_main_title_color">#4f607e</item>
+        <item name="CABSAR_details_color">#ffffff</item>
+
+        <!-- create alarm bottom sheet alarm title -->
+        <item name="CABSAT_background_color">#0e1017</item>
+        <item name="CABSAT_main_title_color">#4f607e</item>
+        <item name="CABSAT_edit_text_text_color">#ffffff</item>
+        <item name="CABSAT_edit_text_hint_color">#9fa2af</item>
+
+        <!-- default alarm bottom sheet alarm mission -->
+        <item name="DABSAM_background_color">#0e1017</item>
+        <item name="DABSAM_main_title_color">#4f607e</item>
+        <item name="DABSAM_card_background_color">#181d2e</item>
+        <item name="DABSAM_card_icon_color">#f6f8ff</item>
+        <item name="DABSAM_card_title_color">#f6f8ff</item>
+
+        <!-- default alarm bottom sheet alarm ringtone -->
+        <item name="DABSAR_background_color">#0e1017</item>
+        <item name="DABSAR_main_title_color">#4f607e</item>
+        <item name="DABSAR_details_color">#ffffff</item>
+
+        <!-- edit alarm bottom sheet alarm mission -->
+        <item name="EABSAM_background_color">#0e1017</item>
+        <item name="EABSAM_main_title_color">#4f607e</item>
+        <item name="EABSAM_card_background_color">#181d2e</item>
+        <item name="EABSAM_card_icon_color">#f6f8ff</item>
+        <item name="EABSAM_card_title_color">#f6f8ff</item>
+
+        <!-- edit alarm bottom sheet alarm ringtone -->
+        <item name="EABSAR_background_color">#0e1017</item>
+        <item name="EABSAR_main_title_color">#4f607e</item>
+        <item name="EABSAR_details_color">#ffffff</item>
+
+        <!-- edit alarm bottom sheet alarm title -->
+        <item name="EABSAT_background_color">#0e1017</item>
+        <item name="EABSAT_main_title_color">#4f607e</item>
+        <item name="EABSAT_edit_text_text_color">#ffffff</item>
+        <item name="EABSAT_edit_text_hint_color">#9fa2af</item>
+
+        <!-- settings general bottom sheet language -->
+        <item name="SGBSL_background_color">#0e1017</item>
+        <item name="SGBSL_main_title_color">#4f607e</item>
+        <item name="SGBSL_card_background_color">#181d2e</item>
+        <item name="SGBSL_card_title_color">#f6f8ff</item>
+
+        <!-- settings general bottom sheet theme -->
+        <item name="SGBST_background_color">#0e1017</item>
+        <item name="SGBST_main_title_color">#4f607e</item>
+        <item name="SGBST_card_background_color">#181d2e</item>
+        <item name="SGBST_card_title_color">#f6f8ff</item>
+
+        <!-- settings mission bottom sheet auto dismiss -->
+        <item name="SMBSAD_background_color">#0e1017</item>
+        <item name="SMBSAD_main_title_color">#4f607e</item>
+        <item name="SMBSAD_details_color">#ffffff</item>
+
+        <!-- settings mission bottom sheet math difficulty -->
+        <item name="SMBSMD_background_color">#0e1017</item>
+        <item name="SMBSMD_main_title_color">#4f607e</item>
+        <item name="SMBSMD_dif_status_color">#eff3ff</item>
+        <item name="SMBSMD_dif_example_color">#7888a5</item>
+        <item name="SMBSMD_tip_easy_color">#818fa9</item>
+        <item name="SMBSMD_tip_hard_color">#818fa9</item>
+        <item name="SMBSMD_slider_tick_color">#f1f6fd</item>
+
+        <!-- settings mission bottom sheet memory difficulty -->
+        <item name="SMBSMED_background_color">#0e1017</item>
+        <item name="SMBSMED_main_title_color">#4f607e</item>
+        <item name="SMBSMED_dif_status_color">#eff3ff</item>
+        <item name="SMBSMED_dif_example_color">#7888a5</item>
+        <item name="SMBSMED_tip_easy_color">#818fa9</item>
+        <item name="SMBSMED_tip_hard_color">#818fa9</item>
+        <item name="SMBSMED_slider_tick_color">#f1f6fd</item>
+
+        <!-- settings mission bottom sheet shake difficulty -->
+        <item name="SMBSSD_background_color">#0e1017</item>
+        <item name="SMBSSD_main_title_color">#4f607e</item>
+        <item name="SMBSSD_dif_status_color">#eff3ff</item>
+        <item name="SMBSSD_tip_easy_color">#818fa9</item>
+        <item name="SMBSSD_tip_hard_color">#818fa9</item>
+        <item name="SMBSSD_slider_tick_color">#f1f6fd</item>
+
+        <!-- ~bottom sheet general view colors~ -->
+        <item name="bs_button_cancel_background_color">#4f607e</item>
+        <item name="bs_button_cancel_text_color">#fbffff</item>
+        <item name="bs_button_ok_background_color">#228ae8</item>
+        <item name="bs_button_ok_text_color">#fbffff</item>
+
+        <!-- time picker theme -->
+        <item name="time_picker_background_color">#181d2e</item>
+        <item name="time_picker_number_color">#4f607e</item>
+        <item name="time_picker_hand_color">#4eabf8</item>
+
+
+    </style>
+
+    <style name="numberPickerTheme" parent="darkTheme">
+
+        <item name="android:editTextColor">?attr/fac_number_picker_text_color</item>
+        <item name="colorControlNormal">?attr/fac_number_picker_color</item>
+
+    </style>
+
+</resources>
