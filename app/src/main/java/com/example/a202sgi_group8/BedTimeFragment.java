@@ -228,6 +228,8 @@ public class BedTimeFragment extends Fragment {
                     AlarmClock alarmClock = (AlarmClock) mClockArrayList.get(viewHolder.getAdapterPosition());
                     database.child(alarmClock.getAlarmId()).setValue(null);
 
+                    alarmClock.cancelAlarm(context);
+
                     //refresh activity
                     getActivity().finish();
                     getActivity().overridePendingTransition(0, 0);
